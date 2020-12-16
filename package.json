@@ -1,6 +1,6 @@
 {
   "name": "d-gird",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Responsive grid system.",
   "main": "dist/d-grid.min.css",
   "author": "Mike Evstropov <mike.evstropov@gmail.com>",
