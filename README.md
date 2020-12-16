@@ -83,7 +83,7 @@ Fill the row to maximum number of columns and apply column min-width.
 yarn install
 ```
 
-#### 2. Run build command.
+#### 2. Run build script.
 
 ```
 yarn build
