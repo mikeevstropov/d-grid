@@ -1,3 +1,4 @@
+![npm version](https://badge.fury.io/js/d-grid.svg)
 ![license](https://img.shields.io/badge/license-mit-blue.svg)
 
 ## Installing
@@ -67,13 +68,13 @@ Fill the row to maximum number of columns and apply column min-width.
 
 ## Scss Variables
 
-- `$gaps` - max range of gap classes
-- `$fits` - max range of auto-fit classes
-- `$fills` - max range of auto-fill classes
-- `$minGap` - min gap size in `px`
-- `$maxGap` - max gap size in `px`
-- `$minWidth` - min column width in `px`
-- `$maxWidth` - max column width in `px`
+- `$gaps: 12` - max range of gap classes
+- `$fits: 12` - max range of auto-fit classes
+- `$fills: 12` - max range of auto-fill classes
+- `$minGap: 2px` - min gap size in `px`
+- `$maxGap: 190px` - max gap size in `px`
+- `$minWidth: 40px` - min column width in `px`
+- `$maxWidth: 1200px` - max column width in `px`
 
 ## Build
 
