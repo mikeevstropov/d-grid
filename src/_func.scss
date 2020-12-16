@@ -1,0 +1,15 @@
+
+/*
+ * Get Segment.
+ *
+ * Value of specific
+ * segment on divided
+ * line between min-max.
+ */
+@function getSegment($total, $index, $min, $max) {
+
+  $factor: $index / $total;
+  $step: ($max - $min) / ($total - 1);
+  $segment: $step * $factor * ($index + 1);
+  @return ceil($min + $segment);
+}

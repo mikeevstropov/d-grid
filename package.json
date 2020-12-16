@@ -1,0 +1,16 @@
+{
+  "name": "d-gird",
+  "version": "0.0.1",
+  "description": "Css grid system.",
+  "main": "dist/d-grid.css",
+  "author": "Mike Evstropov <mike.evstropov@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "sass src/main.scss dist/d-grid.css",
+    "postbuild": "cleancss dist/d-grid.css > dist/d-grid.min.css"
+  },
+  "devDependencies": {
+    "clean-css-cli": "4.3.0",
+    "sass": "1.30.0"
+  }
+}

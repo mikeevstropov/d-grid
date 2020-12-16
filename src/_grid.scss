@@ -1,0 +1,83 @@
+
+@import "func";
+@import "variables";
+
+/*
+ * Grid.
+ *
+ * .d-grid
+ */
+
+.d-grid {
+  display: grid;
+}
+
+/*
+ * Gap.
+ *
+ * .grid-gap-{1-n}
+ * .row-gap-{1-n}
+ * .col-gap-{1-n}
+ */
+
+@for $index from 0 to $gaps {
+
+  $gap: getSegment(
+    $gaps,
+    $index,
+    $minGap,
+    $maxGap
+  );
+
+  .grid-gap-#{$index + 1} {
+    grid-gap: $gap;
+  }
+
+  .row-gap-#{$index + 1} {
+    grid-row-gap: $gap;
+  }
+
+  .col-gap-#{$index + 1} {
+    grid-column-gap: $gap;
+  }
+}
+
+/*
+ * Fits.
+ *
+ * .fit-min-{1-n}
+ */
+
+@for $index from 0 to $fits {
+
+  $width: getSegment(
+    $fits,
+    $index,
+    $minWidth,
+    $maxWidth
+  );
+
+  .fit-min-#{$index + 1} {
+    grid-template-columns: repeat(auto-fit, minmax(#{$width}, 1fr));
+  }
+}
+
+/*
+ * Fills.
+ *
+ * .fill-min-{1-n}
+ */
+
+@for $index from 0 to $fills {
+
+  $width: getSegment(
+    $fills,
+    $index,
+    $minWidth,
+    $maxWidth
+  );
+
+  .fill-min-#{$index + 1} {
+    grid-template-columns: repeat(auto-fill, minmax(#{$width}, 1fr));
+  }
+}
