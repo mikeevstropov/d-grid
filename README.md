@@ -10,19 +10,19 @@ or via `npm`
 npm install d-gird
 ```
 
-##### In Template
+#### In Template
 
 ```html
 <link rel="stylesheet" href="node_modules/d-grid/d-grid.min.css">
 ```
 
-##### ES-Module
+#### ES-Module
 
 ```javascript
 import 'd-grid';
 ```
 
-##### In Sass
+#### In Sass
 
 ```sass
 @import "~d-grid";
@@ -77,7 +77,7 @@ Fill the row to maximum number of columns and apply column min-width.
 
 ## Build
 
-##### 1. Install dependencies.
+#### 1. Install dependencies.
 
 ```
 yarn install
@@ -87,7 +87,7 @@ or via `npm`
 npm install
 ```
 
-##### 2. Run build command.
+#### 2. Run build command.
 
 ```
 yarn build
@@ -97,7 +97,7 @@ or via `npm`
 npm run build
 ```
 
-##### 3. Check out `dist` folder.
+#### 3. Check out `dist` folder.
 
 ```text
 d-grid/
