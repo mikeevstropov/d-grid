@@ -6,3 +6,6 @@ yarn-error.log
 yarn.lock
 .idea
 *.iml
+
+example.html
+README.md
