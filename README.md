@@ -25,7 +25,7 @@ import 'd-grid';
 #### In Sass
 
 ```sass
-@import "~d-grid";
+@import "~d-grid"
 ```
 
 ## Classes
