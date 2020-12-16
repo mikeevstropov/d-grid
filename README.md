@@ -22,10 +22,10 @@ npm install d-gird
 import 'd-grid';
 ```
 
-#### In Sass
+#### In Scss
 
-```sass
-@import "~d-grid"
+```scss
+@import "~d-grid";
 ```
 
 ## Classes
@@ -65,7 +65,7 @@ Expand columns to available space and apply column min-width.
 
 Fill the row to maximum number of columns and apply column min-width.
 
-## Sass Variables
+## Scss Variables
 
 - `$gaps` - max range of gap classes
 - `$fits` - max range of auto-fit classes
@@ -82,19 +82,11 @@ Fill the row to maximum number of columns and apply column min-width.
 ```
 yarn install
 ```
-or via `npm`
-```
-npm install
-```
 
 #### 2. Run build command.
 
 ```
 yarn build
-```
-or via `npm`
-```
-npm run build
 ```
 
 #### 3. Check out `dist` folder.
