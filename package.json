@@ -2,7 +2,7 @@
   "name": "d-gird",
   "version": "1.0.2",
   "description": "Responsive grid system.",
-  "main": "dist/d-grid.css",
+  "main": "dist/d-grid.min.css",
   "author": "Mike Evstropov <mike.evstropov@gmail.com>",
   "license": "MIT",
   "scripts": {
