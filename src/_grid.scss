@@ -59,6 +59,10 @@
 
   .fit-min-#{$index + 1} {
     grid-template-columns: repeat(auto-fit, minmax(#{$width}, 1fr));
+
+    @media (max-width: $width * 1.9) {
+      grid-template-columns: 1fr;
+    }
   }
 }
 
@@ -79,5 +83,9 @@
 
   .fill-min-#{$index + 1} {
     grid-template-columns: repeat(auto-fill, minmax(#{$width}, 1fr));
+
+    @media (max-width: $width * 1.9) {
+      grid-template-columns: 1fr;
+    }
   }
 }
