@@ -74,7 +74,7 @@ Fill the row to maximum number of columns and apply column min-width.
 - `$minGap: 2px` - min gap size in `px`
 - `$maxGap: 190px` - max gap size in `px`
 - `$minWidth: 40px` - min column width in `px`
-- `$maxWidth: 1200px` - max column width in `px`
+- `$maxWidth: 1000px` - max column width in `px`
 
 ## Build
 
