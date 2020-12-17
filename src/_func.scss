@@ -6,10 +6,13 @@
  * segment on divided
  * line between min-max.
  */
-@function getSegment($total, $index, $min, $max) {
+@function getSegment($total, $index, $min, $max, $factored: false) {
 
   $factor: $index / $total;
   $step: ($max - $min) / ($total - 1);
-  $segment: $step * $factor * ($index + 1);
+
+  $segment: $step * ($index + 1);
+  $segment: if($factored, $segment * $factor, $segment);
+
   @return ceil($min + $segment);
 }
