@@ -26,8 +26,7 @@
     $gaps,
     $index,
     $minGap,
-    $maxGap,
-    true
+    $maxGap
   );
 
   .grid-gap-#{$index + 1} {
@@ -55,8 +54,7 @@
     $fits,
     $index,
     $minWidth,
-    $maxWidth,
-    true
+    $maxWidth
   );
 
   .fit-min-#{$index + 1} {
@@ -80,8 +78,7 @@
     $fills,
     $index,
     $minWidth,
-    $maxWidth,
-    true
+    $maxWidth
   );
 
   .fill-min-#{$index + 1} {
