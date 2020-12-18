@@ -68,9 +68,11 @@ Fill the row to maximum number of columns and apply column min-width.
 
 ## Fit or Fill
 
-The difference between auto-fill and auto-fit for sizing columns is only noticeable when the first row is wide enough to fit more columns in it.
+The difference between *auto-fill* and *auto-fit* for sizing columns is only noticeable when the first row is wide enough to fit more columns in it.
 
-[css-tricks.com](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
+If you’re using *auto-fit*, the content of first row will stretch to fill the entire width. Whereas with *auto-fill*, the browser will allow empty columns to occupy space in the row like their non-empty neighbors — they will be allocated a fraction of the space even if they have no grid items in them, thus affecting the size/width of the latter.
+
+[read more](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
 
 ## Scss Variables
 
