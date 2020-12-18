@@ -1,6 +1,13 @@
 ![npm version](https://badge.fury.io/js/d-grid.svg)
 ![license](https://img.shields.io/badge/license-mit-blue.svg)
 
+## D-Grid
+
+- To avoid media queries.
+- To display the tiles grid.
+- To split content to equal columns.
+- Adaptivity is related to the parent width instead of window width.
+
 ## Installing
 
 ```
