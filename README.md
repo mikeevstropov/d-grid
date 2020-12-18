@@ -66,6 +66,12 @@ Expand columns to available space and apply column min-width.
 
 Fill the row to maximum number of columns and apply column min-width.
 
+## Fit or Fill
+
+The difference between auto-fill and auto-fit for sizing columns is only noticeable when the first row is wide enough to fit more columns in it.
+
+[css-tricks.com](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
+
 ## Scss Variables
 
 - `$gaps: 12` - max range of gap classes
